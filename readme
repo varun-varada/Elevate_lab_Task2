@@ -1,0 +1,44 @@
+📊 Titanic Dataset - Task 2: Exploratory Data Analysis (EDA)
+📁 Overview
+This notebook focuses on performing Exploratory Data Analysis (EDA) on the Titanic dataset. It is part of the internship work aimed at understanding the dataset through statistical summaries and visual techniques.
+
+✅ Tasks Performed
+1. Summary Statistics
+Calculated mean, median, standard deviation, min, max for all numeric columns.
+
+Used df.describe() and df.median() to understand the central tendencies and variability of data.
+
+2. Histograms
+Plotted histograms for each numeric column to visualize the distribution.
+
+Identified skewed features like Fare and Age.
+
+3. Boxplots
+Used boxplots to detect outliers in features like Age and Fare.
+
+Helped visualize the spread and potential anomalies in data.
+
+4. Correlation Matrix & Pairplots
+Generated a correlation heatmap to analyze relationships between numeric features.
+
+Plotted pairplots to identify linear or cluster-like relationships.
+
+5. Observations & Inferences
+Features like Fare are right-skewed and may require transformation.
+
+Strong correlation observed between Pclass and Fare.
+
+Outliers detected in Age and Fare columns.
+
+Visual patterns suggest Sex_female may be positively related to survival.
+
+📦 Libraries Used
+pandas
+
+matplotlib
+
+seaborn
+
+📌 Conclusion
+This task successfully provided visual and statistical insights into the Titanic dataset. These EDA steps help guide future feature engineering and model-building efforts.
+
